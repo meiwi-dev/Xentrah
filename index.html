@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Xentrah - Logística inteligente para empresas">
+    <title>Xentrah - Soluciones Logísticas</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="#" class="logo">
+            <img src="assets/images/logo.png" alt="Xentrah Logo" class="logo-img">
+        </a>
+        <div class="nav-right">
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#distribution" data-translate="nav-distribution">Distribución</a></li>
+                <li><a href="#proposals" data-translate="nav-services">Servicios</a></li>
+                <li><a href="#partners" data-translate="nav-partners">Socios</a></li>
+                <li><a href="#footer" data-translate="nav-contact">Contacto</a></li>
+            </ul>
+            <select id="language-selector" class="lang-selector" onchange="updateLanguage(this.value)">
+                <option value="es">ES</option>
+                <option value="en">EN</option>
+            </select>
+        </div>
+    </div>
+</nav>
+
+
+
+    <!-- HERO SECTION -->
+    <header class="hero">
+        <div class="overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h3 data-translate="hero-subtitle">Eficiencia y Confiabilidad en Cada Envío</h3>
+                <h1 data-translate="hero-title">Soluciones Logísticas Inteligentes</h1>
+                <p data-translate="hero-description">Optimizamos tus operaciones de transporte y almacenamiento con tecnología de vanguardia y personal altamente capacitado.</p>
+                <p class="note" data-translate="hero-note">¡Únete a las empresas que confían en nosotros!</p>
+                <a href="#quote" class="btn" data-translate="nav-quote">Cotizar</a>
+
+            </div>
+            <div class="hero-form">
+                <h3 data-translate="form-title">Consulta Rápida</h3>
+                <form id="quote-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Nombre" data-translate="form-name">
+                        <input type="email" placeholder="Correo Electrónico" data-translate="form-email">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Teléfono" data-translate="form-phone">
+                        <input type="text" placeholder="Empresa" data-translate="form-company">
+                    </div>
+                    <textarea placeholder="Mensaje" data-translate="form-message"></textarea>
+                    <button type="submit" data-translate="form-submit">Enviar Consulta</button>
+                </form>
+            </div>
+            
+        </div>
+    </header>
+    <section id="efficiency" class="efficiency">
+        <div class="container">
+            <h2 class="section-title" data-translate="efficiency-title">Mejora la eficiencia de tu operación logística</h2>
+    
+            <div class="efficiency-image">
+                <img src="assets/images/ilustracion-eficiencia.png" alt="Optimización logística">
+            </div>
+    
+            <div class="efficiency-metrics">
+                <div class="metric">
+                    <h3 data-translate="efficiency-save">AHORRA</h3>
+                    <span class="percent red">20%</span>
+                    <p data-translate="efficiency-km">En kilómetros recorridos</p>
+                </div>
+    
+                <div class="metric">
+                    <h3 data-translate="efficiency-save">AHORRA</h3>
+                    <span class="percent yellow">30%</span>
+                    <p data-translate="efficiency-costs">En costos de transporte</p>
+                </div>
+    
+                <div class="metric">
+                    <h3 data-translate="efficiency-reduce">REDUCE</h3>
+                    <span class="percent red">90%</span>
+                    <p data-translate="efficiency-planning">En tiempos de planificación de rutas</p>
+                </div>
+    
+                <div class="metric">
+                    <h3 data-translate="efficiency-improve">MEJORA</h3>
+                    <span class="percent yellow">100%</span>
+                    <p data-translate="efficiency-service">La calidad de servicio al cliente</p>
+                </div>
+            </div>
+    
+            <a href="#contact" class="btn" data-translate="efficiency-demo">¡Agenda tu demo!</a>
+        </div>
+    </section>
+    
+    
+    
+    <section id="distribution" class="distribution">
+        <div class="container">
+            <div class="distribution-content">
+                <div class="text-content">
+                    <h2 data-translate="distribution-title">Distribución General Urbana</h2>
+                    <p data-translate="distribution-description">
+                        Estamos especializados en comercio B2B con entregas rápidas en 24/48 horas. 
+                        Ofrecemos operaciones de cross docking para reducir tiempos de entrega.
+                    </p>
+                    <a href="#quote" class="btn" data-translate="distribution-button">PEDÍ TU PRESUPUESTO SIN CARGO</a>
+                </div>
+                <div class="image-content">
+                    <img src="assets/images/distribution.png" alt="Distribución urbana">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="proposals" class="proposals">
+        <div class="container">
+            <h2 class="section-title" data-translate="proposals-title">Soluciones a la medida de tu empresa</h2>
+            <p class="section-subtitle" data-translate="proposals-subtitle">
+                Ofrecemos propuestas personalizadas para cada necesidad logística. Descubre cómo podemos optimizar tu negocio.
+            </p>
+            
+            <div class="proposal-grid">
+                <div class="proposal-card">
+                    <img src="assets/images/distribucion.jpg" alt="Distribución eficiente">
+                    <div class="proposal-content">
+                        <h3 data-translate="proposal-distribution-title">Distribución eficiente</h3>
+                        <p data-translate="proposal-distribution-desc">Red de transporte optimizada para entregas rápidas y seguras.</p>
+                    </div>
+                </div>
+    
+                <div class="proposal-card">
+                    <img src="assets/images/almacenamiento.jpg" alt="Almacenamiento inteligente">
+                    <div class="proposal-content">
+                        <h3 data-translate="proposal-storage-title">Almacenamiento inteligente</h3>
+                        <p data-translate="proposal-storage-desc">Infraestructura avanzada para una gestión eficiente de inventario.</p>
+                    </div>
+                </div>
+    
+                <div class="proposal-card">
+                    <img src="assets/images/ecommerce.jpg" alt="Logística para eCommerce">
+                    <div class="proposal-content">
+                        <h3 data-translate="proposal-ecommerce-title">Logística para eCommerce</h3>
+                        <p data-translate="proposal-ecommerce-desc">Integración con plataformas digitales para entregas ágiles y precisas.</p>
+                    </div>
+                </div>
+    
+                <div class="proposal-card">
+                    <img src="assets/images/seguridad.png" alt="Seguridad 24/7">
+                    <div class="proposal-content">
+                        <h3 data-translate="proposal-security-title">Seguridad 24/7</h3>
+                        <p data-translate="proposal-security-desc">Monitoreo y trazabilidad en tiempo real para tu mercancía.</p>
+                    </div>
+                </div>
+    
+                <div class="proposal-card">
+                    <img src="assets/images/naves.jpeg" alt="Naves industriales">
+                    <div class="proposal-content">
+                        <h3 data-translate="proposal-industrial-title">Naves industriales</h3>
+                        <p data-translate="proposal-industrial-desc">Infraestructura de alto nivel certificada para almacenamiento masivo.</p>
+                    </div>
+                </div>
+    
+                <div class="proposal-card">
+                    <img src="assets/images/imo.jpg" alt="IMO - Mercancías peligrosas">
+                    <div class="proposal-content">
+                        <h3 data-translate="proposal-imo-title">IMO - Mercancías peligrosas</h3>
+                        <p data-translate="proposal-imo-desc">Almacenamiento y manipulación especializada de cargas peligrosas.</p>
+                    </div>
+                </div>
+    
+                <div class="proposal-card">
+                    <img src="assets/images/zona-franca.jpg" alt="Zona Franca">
+                    <div class="proposal-content">
+                        <h3 data-translate="proposal-freezone-title">Zona Franca</h3>
+                        <p data-translate="proposal-freezone-desc">Consolidamos tus productos en todo el pais para optimizar costos.</p>
+                    </div>
+                </div>
+    
+                <div class="proposal-card">
+                    <img src="assets/images/picking.jpg" alt="Picking & Packing">
+                    <div class="proposal-content">
+                        <h3 data-translate="proposal-picking-title">Picking & Packing</h3>
+                        <p data-translate="proposal-picking-desc">Procesamiento ágil de pedidos con embalaje personalizado.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="partners" class="partners">
+        <div class="container">
+            <h2 class="section-title" data-translate="partners-title">Súmate a nuestra red de partners. ¡Seamos socios!</h2>
+    
+            <div class="partner-grid">
+                <div class="partner-card">
+                    <div class="stars">★★★★★</div>
+                    <h3 data-translate="partner-flavio-name">Flavio</h3>
+                    <p data-translate="partner-flavio-text">
+                        He trabajado con Xentrah por más de dos años y siempre han sido extremadamente puntuales 
+                        en la entrega de nuestros productos. ¡Los recomiendo encarecidamente!
+                    </p>
+                </div>
+    
+                <div class="partner-card">
+                    <div class="stars">★★★★★</div>
+                    <h3 data-translate="partner-walter-name">Walter</h3>
+                    <p data-translate="partner-walter-text">
+                        Nuestros productos a menudo requieren almacenamiento especial, 
+                        y Xentrah ha sido extremadamente flexible y capaz de adaptarse. 
+                        Su capacidad para manejar envíos urgentes ha sido fundamental.
+                    </p>
+                </div>
+    
+                <div class="partner-card">
+                    <div class="stars">★★★★★</div>
+                    <h3 data-translate="partner-natalia-name">Natalia</h3>
+                    <p data-translate="partner-natalia-text">
+                        Xentrah ha hecho que la distribución de nuestros productos 
+                        sea completamente libre de problemas. Su logística eficiente 
+                        nos ha permitido expandirnos de manera constante.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Footer -->
+<footer id="footer">
+    <div class="footer-container">
+        <!-- Suscripción al boletín -->
+        <div class="footer-subscribe">
+            <h3 data-translate="footer-subscribe-title">Suscríbete a Nuestro Boletín</h3>
+            <p data-translate="footer-subscribe-text">Mantente actualizado con las últimas noticias, novedades y estrategias de Xentrah.</p>
+            <form id="subscribe-form">
+                <input type="email" id="email-subscribe" placeholder="Ingresa tu correo" data-translate="footer-subscribe-placeholder" required>
+                <button type="submit" data-translate="footer-subscribe-button">Suscribirse</button>
+            </form>
+        </div>
+
+        <!-- Información de contacto -->
+        <div class="footer-contact">
+            <h3 data-translate="footer-contact-title">Contáctanos</h3>
+            <p><i class="fas fa-map-marker-alt"></i> 30 N Gould St Ste R, Sheridan, WY 82801 </p>   
+            <p><i class="fas fa-phone"></i> +1 (307) 326-8306</p>
+            <p><i class="fas fa-envelope"></i> info@xentrah.com</p>
+            <p><i class="fas fa-globe"></i> www.xentrah.com</p>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p data-translate="footer-copyright">© 2025 Xentrah. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+    <script src="assets/js/translator.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.getElementById('menu-toggle');
+            const navLinks = document.getElementById('nav-links');
+            const body = document.body;
+
+            function toggleMenu() {
+                navLinks.classList.toggle('active');
+                menuToggle.classList.toggle('active');
+                
+                if (navLinks.classList.contains('active')) {
+                    body.style.overflow = 'hidden';
+                } else {
+                    body.style.overflow = '';
+                }
+            }
+
+            menuToggle.addEventListener('click', toggleMenu);
+
+            // Cerrar menú al hacer clic en un enlace
+            document.querySelectorAll('.nav-links a').forEach(link => {
+                link.addEventListener('click', () => {
+                    navLinks.classList.remove('active');
+                    menuToggle.classList.remove('active');
+                    body.style.overflow = '';
+                });
+            });
+
+            // Cerrar menú al redimensionar la ventana
+            window.addEventListener('resize', () => {
+                if (window.innerWidth > 768) {
+                    navLinks.classList.remove('active');
+                    menuToggle.classList.remove('active');
+                    body.style.overflow = '';
+                }
+            });
+
+            const navbar = document.querySelector('.navbar');
+            let lastScroll = 0;
+
+            window.addEventListener('scroll', () => {
+                const currentScroll = window.pageYOffset;
+
+                if (currentScroll <= 0) {
+                    navbar.classList.remove('scrolled');
+                    return;
+                }
+
+                if (currentScroll > lastScroll && !navbar.classList.contains('scrolled')) {
+                    navbar.classList.add('scrolled');
+                } else if (currentScroll < lastScroll && navbar.classList.contains('scrolled')) {
+                    navbar.classList.remove('scrolled');
+                }
+
+                lastScroll = currentScroll;
+            });
+        });
+    </script>
+</body>
+</html>

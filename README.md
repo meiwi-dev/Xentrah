@@ -1,59 +1,85 @@
-# Xentrah - Sitio Web
+# 🏢 Xentrah - Soluciones Logísticas Integrales
 
-Este es el repositorio del sitio web de Xentrah, una empresa de soluciones logísticas.
+<div align="center">
+  <img src="assets/images/logo.png" alt="Xentrah Logo" width="200"/>
+  
+  [![Website](https://img.shields.io/badge/Website-Xentrah-691D13?style=for-the-badge)](https://xentrah.com)
+  [![Status](https://img.shields.io/badge/Status-Activo-success?style=for-the-badge)]()
+  [![Idiomas](https://img.shields.io/badge/Idiomas-ES%20%7C%20EN-blue?style=for-the-badge)]()
+</div>
 
-## Estructura del Proyecto
+## 📋 Descripción
 
-```
-xentrah/
-├── assets/
-│   ├── css/
-│   │   └── styles.css
-│   ├── js/
-│   │   ├── main.js
-│   │   ├── i18n.js
-│   │   └── theme.js
-│   ├── images/
-│   └── fonts/
-├── index.html
-└── README.md
-```
+Xentrah es una empresa líder en soluciones logísticas integrales, ofreciendo servicios de almacenamiento, distribución y gestión de cadena de suministro. Nuestro sitio web presenta una interfaz moderna y responsive que destaca nuestros servicios principales y valores corporativos.
 
-## Características
+### ✨ Características Principales
 
-- Diseño responsive
-- Sistema de temas claro/oscuro
-- Internacionalización (ES/EN)
-- Formularios de contacto
-- Animaciones y transiciones
-- Optimización de imágenes
-- Validación de formularios
-- Sistema de notificaciones
+- 🌐 **Multilingüe**: Soporte completo para Español e Inglés
+- 📱 **Responsive**: Diseño adaptativo para todos los dispositivos
+- 🎯 **Optimizado**: Rendimiento y velocidad de carga optimizados
+- 🎨 **Diseño Moderno**: Interfaz limpia y profesional
 
-## Tecnologías Utilizadas
+## 🛠️ Servicios
 
-- HTML5
-- CSS3 (con variables CSS)
-- JavaScript (Vanilla)
-- Font Awesome para iconos
-- Google Fonts (Poppins)
+### 📦 Almacenamiento
+- Gestión de inventario
+- Control de stock en tiempo real
+- Almacenamiento especializado
 
-## Instalación
+### 🚛 Distribución
+- Logística nacional e internacional
+- Seguimiento en tiempo real
+- Optimización de rutas
 
-1. Clona el repositorio
-2. Abre `index.html` en tu navegador
-3. No se requieren dependencias adicionales
+### 💼 Soluciones E-commerce
+- Integración con plataformas de comercio electrónico
+- Gestión de devoluciones
+- Fulfillment
 
-## Desarrollo
+## 🌟 Ventajas Competitivas
 
-Para contribuir al proyecto:
+- ⚡ **Eficiencia Operativa**
+  - Procesos optimizados
+  - Tecnología de punta
+  - Personal capacitado
 
-1. Haz un fork del repositorio
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
+- 🔒 **Seguridad**
+  - Monitoreo 24/7
+  - Sistemas de seguridad avanzados
+  - Protocolos estrictos
 
-## Licencia
+- 📊 **Tecnología**
+  - Software de gestión avanzado
+  - Trazabilidad completa
+  - Reportes en tiempo real
 
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles. 
+## 🤝 Partners
+
+Trabajamos con empresas líderes en diversos sectores, proporcionando soluciones logísticas personalizadas que impulsan su crecimiento y eficiencia operativa.
+
+## 📞 Contacto
+
+Para más información sobre nuestros servicios:
+
+- 📧 **Email**: [contacto@xentrah.com](mailto:contacto@xentrah.com)
+- 🌐 **Web**: [www.xentrah.com](https://xentrah.com)
+- 📍 **Ubicación**: [Ver en Google Maps](https://maps.google.com)
+
+## 💻 Tecnologías Utilizadas
+
+- ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+- ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+## 🚀 Rendimiento
+
+- ⚡ Tiempo de carga < 2s
+- 📱 Optimizado para móviles
+- 🔍 SEO optimizado
+
+---
+
+<div align="center">
+  <p>© 2024 Xentrah - Todos los derechos reservados</p>
+  <p>Hecho con ❤️ para nuestros clientes</p>
+</div> 
